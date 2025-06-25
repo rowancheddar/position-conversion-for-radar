@@ -1,7 +1,7 @@
 ## Introduction
 This repository provides a simple Python implementation of coordinate transformations for radar tracking systems, including:
-Conversion from Geodetic Coordinates (Latitude, Longitude, Altitude) to ENU (East-North-Up) local tangent plane.
-Conversion from ENU to Radar coordinates (Range, Azimuth, Elevation).
+- Conversion from Geodetic Coordinates (Latitude, Longitude, Altitude) to ENU (East-North-Up) local tangent plane.
+- Conversion from ENU to Radar coordinates (Range, Azimuth, Elevation).
 
 ## How it works
 PositionConversion.py contains the core mathematical functions used for coordinate transformations:
@@ -23,5 +23,5 @@ main.py serves as the entry point for the program:
 2. Install dependencies under requirements.txt
 3. Run main.py
 4. Follow the prompt and input the geodetic coordinates when prompted:
-Reference point: Latitude, Longitude, Altitude
-Target point: Latitude, Longitude, Altitude
+- Reference point: Latitude, Longitude, Altitude
+- Target point: Latitude, Longitude, Altitude
