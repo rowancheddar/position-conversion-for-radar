@@ -4,7 +4,7 @@ This repository provides a simple Python implementation of coordinate transforma
 - Conversion from ENU to Radar coordinates (Range, Azimuth, Elevation).
 
 ## How it works
-PositionConversion.py contains the core mathematical functions used for coordinate transformations:
+PositionConversion.py contains the core mathematical functions used for coordinate transformations based on the WGS84 ellipsoid:
 1. Geodetic to ENU: Converts global latitude, longitude, and altitude into a local East-North-Up coordinate system relative to a reference point.
 2. ENU to RADAR: Converts ENU coordinates into radar-based coordinates: Range, Azimuth, and Elevation, which are typically used for target detection and tracking.
 
